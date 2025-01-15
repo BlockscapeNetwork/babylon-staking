@@ -20,6 +20,19 @@ export const questions = (coinName: string): Question[] => {
       ),
     },
     {
+      title: "Who is Blockscape?",
+      content: (
+        <p>
+          Founded in Switzerland, Blockscape has been actively engaged in
+          staking technology since 2018. Today, we&apos;re expanding our focus
+          to support institutions with secure and seamless access to digital
+          assets. Guided by innovation, partnership, and quality, we empower
+          clients to participate in the future of digital finance with
+          confidence.
+        </p>
+      ),
+    },
+    {
       title: "How does Bitcoin Staking work?",
       content: (
         <>

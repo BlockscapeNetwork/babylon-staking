@@ -9,8 +9,8 @@ import "./globals.css";
 import Providers from "./providers";
 
 export const metadata: Metadata = {
-  title: "Babylon - Staking Dashboard",
-  description: "BTC Staking Dashboard",
+  title: "Blockscape | BTC Staking powered by Babylon",
+  description: "BTC Staking powered by Babylon",
 };
 
 export default function RootLayout({

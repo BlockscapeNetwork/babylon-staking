@@ -2,8 +2,8 @@ import { useWalletConnect } from "@babylonlabs-io/bbn-wallet-connect";
 
 import { Container } from "@/app/components/Container/Container";
 import { useAppState } from "@/app/state";
+import { Logo } from "@/blockscape/Logo";
 
-import { Logo } from "../Logo/Logo";
 import { Connect } from "../Wallet/Connect";
 
 export const Header = () => {
