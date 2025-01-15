@@ -1,0 +1,12 @@
+[build]
+# Install dependencies
+command = "bun install"
+
+# Run Prisma migrations
+command = "bunx prisma migrate deploy"
+
+# Build the Next.js app
+command = "bun next build"
+
+[start]
+command = "bun next start"

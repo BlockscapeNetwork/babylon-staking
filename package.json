@@ -99,9 +99,8 @@
     "ts-node": "^10.9.2",
     "typescript": "^5"
   },
-  "overrides": {
-    "whatwg-url@11.0.0": {
-      "tr46": "4.0.0"
-    }
+  "resolutions": {
+    "whatwg-url": "11.0.0",
+    "tr46": "4.0.0"
   }
 }
