@@ -91,7 +91,7 @@ export function DelegationForm({
     <AuthGuard fallback={<WalletNotConnected />}>
       <div className="relative flex flex-1 flex-col gap-4">
         <Heading variant="h5" className="text-primary-dark">
-          Step 2
+          Stake Your Bitcoin with Blockscape
         </Heading>
 
         <Text variant="body1" className="text-primary-light">

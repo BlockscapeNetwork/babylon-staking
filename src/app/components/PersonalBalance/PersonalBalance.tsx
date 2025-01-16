@@ -33,7 +33,7 @@ export function PersonalBalance() {
 
   return (
     <AuthGuard>
-      <Section title="Wallet Balance">
+      <Section title="Your Wallet Balance">
         <div className="flex flex-col justify-between bg-secondary-contrast rounded p-6 text-base md:flex-row border border-primary-dark/20">
           <StatItem
             loading={loading}

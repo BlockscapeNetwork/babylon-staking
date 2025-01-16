@@ -12,6 +12,18 @@ import { FinalityProviderTable } from "./FinalityProviderTable";
 export const FinalityProviders = () => {
   const { setValue } = useFormContext();
 
+  //! this will be replaced with the blockscape finaliy provider once deployed
+  setValue(
+    "finalityProvider",
+    "affec1bc0666ae26441e34b04d09025ba87b1ff20c4c59a567cb888a90facbd2",
+    {
+      shouldValidate: true,
+      shouldTouch: true,
+      shouldDirty: true,
+    },
+  );
+  //! this will be replaced with the blockscape finaliy provider once deployed
+
   return (
     <div className="flex flex-col gap-4">
       <Heading variant="h5" className="text-primary-dark">

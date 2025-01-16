@@ -32,11 +32,12 @@ export function StakingForm() {
         onSubmit={displayPreview}
       >
         <div className="flex flex-col gap-6 lg:flex-row">
-          <div className="lg:w-3/5 xl:w-2/3 p-6 rounded border bg-secondary-contrast border-primary-light/20">
+          {/* <div className="lg:w-3/5 xl:w-2/3 p-6 rounded border bg-secondary-contrast border-primary-light/20"> */}
+          <div className="hidden">
             <FinalityProviders />
           </div>
 
-          <div className="flex lg:w-2/5 xl:w-1/3 p-6 rounded border bg-secondary-contrast border-primary-light/20">
+          <div className="flex w-full p-6 rounded border bg-secondary-contrast border-primary-light/20">
             <DelegationForm
               loading={loading}
               available={available}

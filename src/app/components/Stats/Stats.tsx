@@ -25,10 +25,7 @@ export const Stats = memo(() => {
   const activeFinalityProviders = data?.active_finality_providers ?? 0;
 
   return (
-    <Section
-      title="Babylon Bitcoin Staking Stats"
-      titleClassName="text-primary-contrast"
-    >
+    <Section>
       <div className="flex flex-col justify-between bg-secondary-contrast rounded p-6 text-base md:flex-row border border-primary-dark/20">
         <StatItem
           loading={isLoading}
