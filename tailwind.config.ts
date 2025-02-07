@@ -14,14 +14,14 @@ const config: Config = {
   theme: {
     screens: screenBreakPoints,
     extend: {
-      colors: {
-        /**
-         * Explicitly copy the coreUIConfig theme under `extend` so that
-         * it doesn't get overridden by daisyui plugin
-         */
-        ...coreUIConfig.theme.colors,
-        "base-400": "hsl(var(--base-400) / <alpha-value>)",
-      },
+      // colors: {
+      //   /**
+      //    * Explicitly copy the coreUIConfig theme under `extend` so that
+      //    * it doesn't get overridden by daisyui plugin
+      //    */
+      //   ...coreUIConfig.theme.colors,
+      //   "base-400": "hsl(var(--base-400) / <alpha-value>)",
+      // },
       gridTemplateColumns: {
         stakingFinalityProvidersMobile: "2fr 1fr",
         stakingFinalityProvidersDesktop: "2fr 1.5fr 2fr 0.75fr 0.75fr",
@@ -34,7 +34,7 @@ const config: Config = {
     themes: [
       {
         light: {
-          ...require("daisyui/src/theming/themes")["light"],
+          ...require("daisyui/src/theming/themes")["cupcake"],
           primary: "#FF8000",
           secondary: "#FF4500",
           "base-100": "#F6F6F6",

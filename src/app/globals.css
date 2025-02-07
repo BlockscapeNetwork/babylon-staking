@@ -9,8 +9,8 @@
 @tailwind utilities;
 
 :root {
-  --primary: #ff7c2a;
-  --secondary: "#0DB7BF";
+  --primary: "#ff8000";
+  --secondary: "#ff7c2a";
   --toastify-toast-width: 344px;
 }
 
@@ -104,10 +104,8 @@ body.modal-open {
 
 .tooltip-wrap {
   max-width: 25rem;
-  white-space: pre-wrap;
+  white-space: normal;
   word-wrap: break-word;
-  height: fit-content !important;
-  z-index: 9999;
 }
 
 .tooltip-wrap[data-popper-placement*="top"] .tooltip-arrow {
