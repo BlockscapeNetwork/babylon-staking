@@ -45,7 +45,7 @@ const nextConfig = {
             value:
               "default-src 'self'; " +
               "script-src 'self' 'unsafe-inline' 'unsafe-eval'; " +
-              "connect-src 'self' *.web3auth.io https://arb1.arbitrum.io https://api.cow.fi *.monerium.dev *.monerium.app  ; " +
+              "connect-src 'self' https://*.babylonlabs.io  ; " +
               "style-src 'self' 'unsafe-inline'; " +
               "img-src 'self' data:; " +
               "worker-src 'self';",

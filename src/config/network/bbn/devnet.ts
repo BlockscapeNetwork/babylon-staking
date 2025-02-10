@@ -1,9 +1,9 @@
-export const BBN_DEVNET_RPC_URL = "https://rpc-dapp.devnet.babylonlabs.io";
-export const BBN_DEVNET_LCD_URL = "https://lcd-dapp.devnet.babylonlabs.io";
+export const BBN_DEVNET_RPC_URL = "https://rpc-dapp.testnet.babylonlabs.io";
+export const BBN_DEVNET_LCD_URL = "https://lcd-dapp.testnet.babylonlabs.io";
 
 export const bbnDevnet = {
-  chainId: "devnet-9",
-  chainName: "Babylon Devnet 9",
+  chainId: "bbn-test-5",
+  chainName: "Babylon Phase-2 Testnet",
   chainSymbolImageUrl:
     "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/bbn-dev/chain.png",
   rpc: BBN_DEVNET_RPC_URL,

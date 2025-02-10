@@ -15,7 +15,7 @@ export const FinalityProviders = () => {
   //! this will be replaced with the blockscape finaliy provider once deployed
   setValue(
     "finalityProvider",
-    "affec1bc0666ae26441e34b04d09025ba87b1ff20c4c59a567cb888a90facbd2",
+    "c8b1e922dce1f33f67dd264956a8ba29ee5e02ea2a43b253bd798695e281baa5",
     {
       shouldValidate: true,
       shouldTouch: true,
